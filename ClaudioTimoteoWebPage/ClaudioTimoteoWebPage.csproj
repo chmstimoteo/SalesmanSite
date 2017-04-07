@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7DA977D-3734-413A-9CE0-22BA865E10AC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClaudioTimoteoWebPage</RootNamespace>
+    <AssemblyName>ClaudioTimoteoWebPage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\assets\owl-carousel\AjaxLoader.gif" />
+    <Content Include="content\assets\owl-carousel\grabbing.png" />
+    <Content Include="content\assets\owl-carousel\owl.carousel.css" />
+    <Content Include="content\assets\owl-carousel\owl.carousel.min.js" />
+    <Content Include="content\assets\owl-carousel\owl.theme.css" />
+    <Content Include="content\css\animate.css" />
+    <Content Include="cool500.html" />
+    <Content Include="content\css\default.css" />
+    <Content Include="content\css\magnific-popup.css" />
+    <Content Include="content\css\responsive.css" />
+    <Content Include="content\css\style.css" />
+    <Content Include="content\images\2.jpg" />
+    <Content Include="content\images\3.jpg" />
+    <Content Include="content\images\404.jpg" />
+    <Content Include="content\images\agricola.jpg" />
+    <Content Include="content\images\agro-bg.jpg" />
+    <Content Include="content\images\avatar.jpg" />
+    <Content Include="content\images\balança-1500kg.jpg" />
+    <Content Include="content\images\balança-500kg.jpg" />
+    <Content Include="content\images\barras-vf-850.jpg" />
+    <Content Include="content\images\bebedouro.jpg" />
+    <Content Include="content\images\bg-blur.jpg" />
+    <Content Include="content\images\bg.jpg" />
+    <Content Include="content\images\bur-agro-bg.jpg" />
+    <Content Include="content\images\cocho-movel.jpg" />
+    <Content Include="content\images\curral-antiestresse-eucalipto-tratado-gde.jpg" />
+    <Content Include="content\images\curral-antiestresse-eucalipto-tratado.jpg" />
+    <Content Include="content\images\curral-antiestresse-pre-moldado-gde.jpg" />
+    <Content Include="content\images\curral-antiestresse-pre-moldado.jpg" />
+    <Content Include="content\images\curral-convencional-pre-moldado-gde.jpg" />
+    <Content Include="content\images\curral-convencional-pre-moldado.jpg" />
+    <Content Include="content\images\curral-eucalipto-tratado-gde.jpg" />
+    <Content Include="content\images\curral-eucalipto-tratado.jpg" />
+    <Content Include="content\images\ducha.jpg" />
+    <Content Include="content\images\gaiola-balança-porbaixo.jpg" />
+    <Content Include="content\images\indicador-vf-b.jpg" />
+    <Content Include="content\images\indicador-vf-plus.jpg" />
+    <Content Include="content\images\indicador-vf-premium.jpg" />
+    <Content Include="content\images\loader.gif" />
+    <Content Include="content\images\map-marker.png" />
+    <Content Include="content\images\tronco-vf-padrao-adaptado-porbaixo.jpg" />
+    <Content Include="content\images\tronco-vf-padrao.jpg" />
+    <Content Include="content\images\tronco-vf-premium-adaptado-porbaixo.jpg" />
+    <Content Include="content\images\tronco-vf-premium.jpg" />
+    <Content Include="content\js\gmaps.js" />
+    <Content Include="content\js\jquery-2.1.1.min.js" />
+    <Content Include="content\js\jquery.fittext.js" />
+    <Content Include="content\js\jquery.nicescroll.min.js" />
+    <Content Include="content\js\magnific-popup.js" />
+    <Content Include="content\js\modernizr.js" />
+    <Content Include="content\js\script.js" />
+    <Content Include="content\js\waypoints.js" />
+    <Content Include="content\js\wow.min.js" />
+    <Content Include="cool404.html" />
+    <Content Include="googlec4846660a43c93c1.html" />
+    <Content Include="index.html" />
+    <Content Include="robots.txt" />
+    <Content Include="sitemap.xml" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13743</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13220/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
